@@ -1,0 +1,27 @@
+{
+    "name": "swiat",
+    "version": "1.0.0",
+    "description": "",
+    "homepage": "https://github.com/Meser6/-wiat#readme",
+    "bugs": {
+        "url": "https://github.com/Meser6/-wiat/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Meser6/-wiat.git"
+    },
+    "license": "ISC",
+    "author": "Kuba Kaczmarczyk",
+    "type": "commonjs",
+    "main": "index.js",
+    "scripts": {
+        "start": "ts-node ./runner.ts",
+        "check": "tsc --noEmit"
+    },
+    "dependencies": {
+        "prettier": "^3.5.3",
+        "prettier-plugin-organize-imports": "^4.1.0",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.8.3"
+    }
+}
