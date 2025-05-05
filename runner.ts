@@ -1,5 +1,3 @@
-const runner = async () => {
-    console.log('Hello from runner.ts');
-};
+const runner = async () => {};
 
 runner();
