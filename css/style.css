@@ -1,0 +1,20 @@
+.arena {
+    display: grid;
+    grid-template-columns: repeat(10, 40px);
+    grid-template-rows: repeat(10, 40px);
+    gap: 2px;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+.square {
+    aspect-ratio: 1 / 1;
+    background-color: gray;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .arena {
+        gap: 2px;
+    }
+}

@@ -1,3 +1,9 @@
+//Arena
+const arena = {
+    width: 10,
+    height: 10
+};
+//Creatures
 const rabbit = {
     eatingParam: {
         addEatingAfterEat: 1,
@@ -19,6 +25,7 @@ const grass = {
 };
 
 export const params = {
+    arena,
     rabbit,
     grass
 };
