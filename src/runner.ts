@@ -1,12 +1,13 @@
 import { Arena } from './arena/arena';
 import { params } from './params';
 
-const runner = () => {
-    const arenaElement = document.getElementById('arena');
-
+const runner = async () => {
     const area = new Arena(params.arena.width, params.arena.height);
-    area.init();
-    area.renderToHTML(arenaElement!);
+
+    //TODO
+    // while (true) {
+    //     await area.grow();
+    // }
 };
 
 runner();
