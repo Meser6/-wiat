@@ -1,0 +1,14 @@
+.square {
+    aspect-ratio: 1 / 1;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    background-color: gray;
+    color: #333;
+}
